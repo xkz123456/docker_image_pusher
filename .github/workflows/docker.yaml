@@ -12,11 +12,6 @@ env:
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
-echo "$ALIYUN_REGISTRY"
-echo "$ALIYUN_NAME_SPACE"
-echo "$ALIYUN_REGISTRY_USER"
-echo "$ALIYUN_REGISTRY_PASSWORD"
-
 jobs:
 
   build:
@@ -29,6 +24,10 @@ jobs:
         echo "=============================================================================="
         df -hT
         echo "=============================================================================="
+        echo "$ALIYUN_REGISTRY"
+        echo "$ALIYUN_NAME_SPACE"
+        echo "$ALIYUN_REGISTRY_USER"
+        echo "$ALIYUN_REGISTRY_PASSWORD"
 
     # 增加可用磁盘空间
     - name: Maximize build space
