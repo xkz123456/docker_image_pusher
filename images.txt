@@ -1,1 +1,1 @@
-jenkinsci/blueocean:latest
+jenkins/jenkins:2.528.3-lts-jdk17
