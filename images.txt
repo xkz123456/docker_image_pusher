@@ -1,1 +1,1 @@
-jenkins/inbound-agent:jdk17
+node:7-alpine
