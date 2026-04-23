@@ -1,1 +1,1 @@
---platform=linux/amd64 macrosan/kylin:v10-sp3-amd64
+grafana/promtail:3.6.10
