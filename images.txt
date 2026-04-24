@@ -1,1 +1,1 @@
-grafana/loki:main-8de9ca4
+grafana/grafana:13.0.1
