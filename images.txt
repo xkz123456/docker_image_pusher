@@ -1,1 +1,1 @@
-grafana/alloy:v1.16.0
+grafana/otel-lgtm:0.25.0
