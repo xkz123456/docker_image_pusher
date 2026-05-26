@@ -1,1 +1,1 @@
-ubuntu:22.04
+colinchang/ubuntu-desktop:22.04
