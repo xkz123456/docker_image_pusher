@@ -1,1 +1,1 @@
-grafana/otel-lgtm:0.25.0
+ubuntu:22.04
